@@ -1,7 +1,30 @@
-.top-background{
-    background-image: url('../images/banner/banner3.png');
+.img-bg {
+    width: 2000px;
+    height: 800;
+    flex-shrink: 0;
 }
-.button{
+
+.button {
     color: #F15B22;
 
+}
+
+.header h2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 216px 230px 364px 845px ;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    border-radius: 8px;
+background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
 }
